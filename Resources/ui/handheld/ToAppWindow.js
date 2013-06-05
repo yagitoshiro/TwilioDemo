@@ -10,6 +10,7 @@ function ToAppWindow(title, TiTwilio){
     top: 10,
     hintText: '自分の名前(アルファベット)',
     borderStyle : Titanium.UI.INPUT_BORDERSTYLE_BEZEL,
+    backgroundColor: 'White',
     left: 10,
     right: 10
   });
@@ -46,6 +47,7 @@ function ToAppWindow(title, TiTwilio){
     top: 10,
     hintText: '相手の名前(アルファベット)',
     borderStyle : Titanium.UI.INPUT_BORDERSTYLE_BEZEL,
+    backgroundColor: 'White',
     left: 10,
     right: 10
   });
