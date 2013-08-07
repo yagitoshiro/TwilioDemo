@@ -87,7 +87,7 @@ login.addEventListener('click', function(){
   if(isOnline()){
     //TiTwilio.login();
     TiTwilio.login({
-      url: 'http://dev.voidoid.com/auth?name=' + tf.value
+      url: 'http://example.com/auth?name=' + tf.value
     });
   }else{
     alert("Twilio works only with Wifi or LAN network");
@@ -98,7 +98,7 @@ connect.addEventListener('click', function(){
   if(isOnline()){
     //TiTwilio.connect();
     TiTwilio.connect({
-      url: 'http://dev.voidoid.com/auth',
+      url: 'http://example.com/auth',
       params: {phoneNumber: '+818054694667'}
     });
   }else{

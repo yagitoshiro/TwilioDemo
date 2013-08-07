@@ -29,7 +29,7 @@ function ToAppWindow(title, TiTwilio){
   }
   function login_func(){
     TiTwilio.login({
-      url: 'http://dev.voidoid.com/auth?name=' + me.value,
+      url: 'http://example.com/auth?name=' + me.value,
       params: {name: Ti.App.Properties.getString('username'), type: 'login'},
       pendingIntent: pendingIntent
     });
@@ -70,7 +70,7 @@ function ToAppWindow(title, TiTwilio){
       TiTwilio.disconnect();
     });
     TiTwilio.connect({
-      url: 'http://dev.voidoid.com/auth',
+      url: 'http://example.com/auth',
       params: {name: me.value, to: you.value, type: 'call_to_app'}
     });
   });

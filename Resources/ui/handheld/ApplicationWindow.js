@@ -40,7 +40,7 @@ function ApplicationWindow(title, TiTwilio) {
   connect.addEventListener('click', function(){
     if(isOnline()){
       TiTwilio.connect({
-        url: 'http://dev.voidoid.com/auth',
+        url: 'http://example.com/auth',
         params: {name: "Titanium", type: 'auto_response'}
       });
     }else{

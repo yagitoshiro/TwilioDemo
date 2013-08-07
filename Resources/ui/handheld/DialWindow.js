@@ -15,7 +15,7 @@ function DialWindow(row, TiTwilio){
 
   function connect(){
     TiTwilio.connect({
-      url: 'http://dev.voidoid.com/auth',
+      url: 'http://example.com/auth',
       params: {name: Ti.App.Properties.getString('username'), to: row.title, type: 'call_to_app'}
     });
   }

@@ -193,7 +193,7 @@ function ToPhoneWindow(title, TiTwilio){
       TiTwilio.disconnect();
     });
     TiTwilio.connect({
-      url: 'http://dev.voidoid.com/auth',
+      url: 'http://example.com/auth',
       params: {phoneNumber: number.text.replace(/^0/, '+81'), type: 'call_to_phone'}
     });
   });
